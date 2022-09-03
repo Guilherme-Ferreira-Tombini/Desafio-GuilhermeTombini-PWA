@@ -77,9 +77,3 @@ function verificaVencedor(){
        resultado.innerHTML= "Ganhador: " + vencedor;
    }
 }
-
-function reset(){
-    let espacos = document.getElementsByClassName("espaco");
-    this.getElementsByTagName("img").length == 0
-                
-}
