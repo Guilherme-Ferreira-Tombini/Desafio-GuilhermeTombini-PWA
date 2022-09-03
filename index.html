@@ -7,11 +7,40 @@
     <link rel="manifest" href="/manifest.json"/>
     <link rel="apple-touch-icon" href="images/images.jpg"/>
     <meta name="theme-color" content="white"/>
-    <title>Minha primeira PWA</title>
+    <title>Jogo da Velha</title>
 </head>
 <body class="fullscreen">
   <div class="container">
-    <h1 class="title">Minha primeira PWA</h1>
+    <h1 class="card">Jogo da Velha</h1>
+
+    <div class="card">
+      <div id="mostrar">
+        <h1>Vez do jogador: </h1>
+        <img src="" height="50">
+       </div>
+
+    <div class="tabuleiro">
+      <div class="linha">
+      <div id="a1" class="espaco" jogada=""></div>
+      <div id="a2" class="espaco" jogada=""></div>
+      <div id="a3" class="espaco" jogada=""></div>
+    </div>
+
+     <div class="linha">
+      <div id="b1" class="espaco" jogada=""></div>
+      <div id="b2" class="espaco" jogada=""></div>
+      <div id="b3" class="espaco" jogada=""></div>
+    </div>
+
+    <div class="linha">
+      <div id="c1" class="espaco" jogada=""></div>
+      <div id="c2" class="espaco" jogada=""></div>
+      <div id="c3" class="espaco" jogada=""></div>
+    </div>
+    <h2 id="result"></h2>
+    <button class="bot" onclick="reset()">Reiniciar</button>
+    </div>
+  </div>
   </div>
 
   <script src="js/main.js"></script>
