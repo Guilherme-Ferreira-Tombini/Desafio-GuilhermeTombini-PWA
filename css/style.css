@@ -29,46 +29,44 @@ html, .fullscreen {
 .card{
     background-color: #ffffff;
     margin-top: 30px;
-    padding: 10px;
+    padding: 16px;
     display: flex;
     border-radius: 10px;
     flex-direction: column;
     align-items: center;
     
 }
-
 #mostrar{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
 }
 
 #mostrar img{
-    margin: 5px;
-    margin-top: -3px;
+   margin: 5px;
+   margin-top: -3px;
 }
 
 
 .tabuleiro{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 40px;
 }
 
 .espaco{
-    width: 80px;
-    height: 80px;
-    border: 2px solid black;
-    text-align: center;
-    
+   width: 80px;
+   height: 80px;
+   border: 2px solid black;
+   text-align: center;
+   
 }
 
 .linha{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
 }
 #result{
 padding: 10px;

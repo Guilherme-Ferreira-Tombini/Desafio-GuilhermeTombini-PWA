@@ -15,6 +15,7 @@ atualiza_mostrador();
 inicializar_espaços();
 
 function atualiza_mostrador(){
+    let vez = document.getElementById("vez")
     if(gameOver){return;}
     if(playTime == jogador1){
         let jogador = document.querySelectorAll("div#mostrar img")[0]
@@ -62,6 +63,7 @@ function verificaVencedor(){
     let c2 = document.getElementById("c2").getAttribute("jogada");
     let c3 = document.getElementById("c3").getAttribute("jogada");
     let vencedor = "";
+    
    if(((a1 == b1 && a1 == c1) || (a1 == a2 && a1 == a3) || (a1 == b2 && a1 == c3)) && a1 != ""){
       vencedor = a1;
    }else if (((b2 == b1 && b2 == b3) || (b2 == a2 && b2 == c2) || (b2 == a3 && b2 == c1)) && b2 != ""){
